@@ -1,7 +1,6 @@
 @font-face{
     font-family: Novecento;
-    src: url("fonts/Novecentosanswide-Bold.otf") format("openformat");
-    font-weight: 500;
+    src: url('../fonts/Novecentosanswide-Bold.otf');
 }
 
 body, html{
@@ -62,7 +61,7 @@ ul, ol{
 }
 
 .content h1{
-    font-family: 'novecento';
+    font-family: Novecento;
     color: rgb(1,52,102);
 }
 /* Navigation */
@@ -91,7 +90,7 @@ ul, ol{
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #FFF;
-    font-family: 'novecento';
+    font-family: Novecento;
 	font-size: 12px;
 	letter-spacing: 1px;
 }
@@ -128,7 +127,7 @@ ul, ol{
 }
 .section-title h2,
 .section-title.center h2{
-    font-family: 'novecento';
+    font-family: Novecento;
 	font-weight: 300;
 }
 
