@@ -249,7 +249,7 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #FCAC45;
-	border-color: #FCAC45;
+	background: rgb(237,20,90);
+	border-color: rgb(237,20,90);
 	color: #ffffff;
 }
