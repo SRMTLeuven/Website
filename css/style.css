@@ -108,7 +108,8 @@ ul, ol{
 #tf-home{
     background-image: url(../img/meeting.jpg);
 	background-position: center;
-    height: 100vh;	
+    background-repeat: no-repeat;
+    height: 100vh;
     color: rgb(237,20,90);
 }
 
