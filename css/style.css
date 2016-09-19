@@ -1,7 +1,6 @@
 @font-face{
     font-family: Novecento;
-    src: url("fonts/Novecentosanswide-Bold.otf") format("openformat");
-    font-weight: 500;
+    src: url('../fonts/Novecentosanswide-Bold.otf');
 }
 
 body, html{
@@ -62,7 +61,7 @@ ul, ol{
 }
 
 .content h1{
-    font-family: 'novecento';
+    font-family: Novecento;
     color: rgb(1,52,102);
 }
 /* Navigation */
@@ -91,7 +90,7 @@ ul, ol{
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #FFF;
-    font-family: 'novecento';
+    font-family: Novecento;
 	font-size: 12px;
 	letter-spacing: 1px;
 }
@@ -108,8 +107,10 @@ ul, ol{
 }
 #tf-home{
     background-image: url(../img/meeting.jpg);
+    background-size: cover;
 	background-position: center;
-    height: 100vh;	
+    background-repeat: no-repeat;
+    height: 100vh;
     color: rgb(237,20,90);
 }
 
@@ -128,7 +129,7 @@ ul, ol{
 }
 .section-title h2,
 .section-title.center h2{
-    font-family: 'novecento';
+    font-family: Novecento;
 	font-weight: 300;
 }
 
@@ -221,6 +222,7 @@ img.img-circle.team-img {
 #tf-contact{
 	padding: 80px 0;
     height: auto;
+    font-family: , "trebuchet ms",  sans-serif;
 }
 /* Footer */
 nav#footer{
@@ -248,7 +250,7 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #FCAC45;
-	border-color: #FCAC45;
+	background: rgb(237,20,90);
+	border-color: rgb(237,20,90);
 	color: #ffffff;
 }
